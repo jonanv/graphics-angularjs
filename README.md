@@ -8,9 +8,7 @@
 [![License][license-badge]][license-url]
 
 # Site
-<!-- ![graphics angularjs](https://i.imgur.com/BtJ5256.png)
-![graphics angularjs 1](https://i.imgur.com/CjYDVm1.png)
-![graphics angularjs 2](https://i.imgur.com/P6Tg7n2.png) -->
+![graphics angularjs](https://i.imgur.com/HnCHwoV.png)
 
 # Install dependences
 in ```graphics-angularjs/```
