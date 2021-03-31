@@ -5,11 +5,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { LineComponent } from './components/line/line.component';
 import { BarComponent } from './components/bar/bar.component';
 import { DoughnutComponent } from './components/doughnut/doughnut.component';
+import { RadarComponent } from './components/radar/radar.component';
 
 const routes: Routes = [
   { path: 'line', component: LineComponent },
   { path: 'bar', component: BarComponent },
   { path: 'doughnut', component: DoughnutComponent },
+  { path: 'radar', component: RadarComponent },
 
   // Default
   { path: '**', pathMatch: 'full', redirectTo: 'line' }

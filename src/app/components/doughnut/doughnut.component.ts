@@ -11,6 +11,7 @@ import { Label, MultiDataSet } from 'ng2-charts';
 })
 export class DoughnutComponent {
 
+  // Doughnut
   public doughnutChartLabels: Label[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
   public doughnutChartData: MultiDataSet = [
     [350, 450, 100],
