@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+// Imports
 import { AppRoutingModule } from './app-routing.module';
+import { ChartsModule } from 'ng2-charts';
+
+// Imports components
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,7 +14,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
