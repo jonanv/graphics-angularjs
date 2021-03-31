@@ -55,16 +55,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ***
 
-<!-- # Create component without .spec (--skip-tests)
+# Create component without .spec (--skip-tests)
 ```javascript
-ng generate component components/creditCardForm --skip-tests
+ng generate component components/line --skip-tests
 ```
 or
 ```javascript
-ng g c components/creditCardForm --skip-tests
+ng g c components/line --skip-tests
 ```
 
-# Create service without file .spec (--skip-tests)
+<!-- # Create service without file .spec (--skip-tests)
 ```javascript
 ng generate service services/creditCard --skip-tests
 ```

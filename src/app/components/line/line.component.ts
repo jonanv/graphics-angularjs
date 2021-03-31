@@ -92,11 +92,6 @@ export class LineComponent {
 
   @ViewChild(BaseChartDirective, { static: true }) chart: BaseChartDirective;
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
   public randomize(): void {
     for (let i = 0; i < this.lineChartData.length; i++) {
       for (let j = 0; j < this.lineChartData[i].data.length; j++) {
